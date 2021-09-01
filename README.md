@@ -4,7 +4,7 @@
     - Set up AWS and run the app web file on port 3000
 
 # Tasks: 
-    - Configure that instance 
+    - Create and Configure a AWS instance 
     - Load the App file into the instance 
     - Install packages
     - Add the 3000 port rule to allow users to access the port
