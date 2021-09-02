@@ -105,11 +105,11 @@ Exit the AWS instance and go to the **app** file in your local directory (or the
 
 then to migrate to the instance, we use this command.
 
->`scp -ri ~/.ssh/sre_key.pem` *app* `ubuntu@(IP):/home/ubuntu/app`
+>`scp -ri ~/.ssh/sre_key.pem` *app* `ubuntu@[Public IP address (without square brackets)]:/home/ubuntu/app`
 
 >s`cp -ri ~/.ssh/sre_key.pem` == the file that validate the connection  \
 > *app* ==  the file that you want to send to the instance  \
-> `ubuntu@(IP):/home/ubuntu/app` == the ip address with the location that you want to send the *app* file to `/home/ubuntu/app`
+> `ubuntu@[Public IP address]:/home/ubuntu/app` == the ip address with the location that you want to send the *app* file to `/home/ubuntu/app`
 
 In this case, you will have to wait till eveything install properly
 
