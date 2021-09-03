@@ -143,7 +143,6 @@ echo"DB_HOST=mongodb://[ DB IP ]:27017/posts"| sudo tee -a /etc/environment
 
 
 
-### Public address should show the sparta logo 
 END
 ___
 
